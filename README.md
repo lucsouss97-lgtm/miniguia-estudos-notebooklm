@@ -10,38 +10,41 @@ O objetivo deste projeto é explorar como a Inteligência Artificial (IA) pode a
 ---
 
 ## 📚 Curadoria de Fontes
-* **EdTech Report 2025 (Distrito):** Dados sobre automação e tendências.
-* **Portal ABMES:** Artigos sobre aprendizagem personalizada.
-* **Revista Missioneira (CEMIPA):** Estudo sobre IA e inclusão.
+Utilizamos as seguintes fontes de referência para alimentar o NotebookLM:
+
+* **Distrito:** [IA na educação: potencial, desafios e futuro do aprendizado](https://distrito.me/blog/ia-na-educacao-potencial-desafios-e-futuro-do-aprendizado/)
+* **Portal ABMES:** [A Revolução da Aprendizagem Personalizada e a IA](https://abmes.org.br/blog/detalhe/18929/a-revolucao-da-aprendizagem-personalizada-como-a-ia-esta-transformando-o-ensino)
+* **Revista Missioneira (CEMIPA):** [IA como ferramenta de apoio ao ensino e aprendizagem](https://cemipa.com.br/revistas/index.php/missioneira/article/view/310)
 
 ---
 
 ## 🧠 Engenharia de Prompts e "Cicatrizes"
-* **Prompt Estratégico:** *"Atue como um especialista em tecnologia educacional e crie uma tabela comparativa..."*
-* **Troubleshooting (Cicatrizes):** Inicialmente, a IA gerava respostas genéricas. Foi necessário refinar os prompts exigindo o uso de dados específicos (como o dado de 20% a 40% de automação) para garantir maturidade técnica.
+* **Prompt Estratégico:** *"Atue como um especialista em tecnologia educacional e crie uma tabela comparativa entre o ensino tradicional e o adaptativo, baseando-se nos dados do EdTech Report 2025."*
+* **Troubleshooting (Cicatrizes):** Inicialmente, a IA gerava respostas genéricas. Foi necessário refinar os prompts exigindo o uso de dados específicos (como o dado de 20% a 40% de automação) para garantir maturidade técnica e evitar alucinações de dados.
 
 ---
 
 ## 📖 Miniguia de Estudo
 
 ### 1. Resumo Estruturado
-A IA permite uma reconfiguração da rotina docente. Segundo o **EdTech Report 2025**, cerca de **20% a 40% das horas** de trabalho dos professores podem ser automatizadas, permitindo foco total na tutoria humana e no desenvolvimento socioemocional.
+A IA permite uma reconfiguração da rotina docente. Segundo o **EdTech Report 2025**, cerca de **20% a 40% das horas** de trabalho dos professores podem ser automatizadas, permitindo foco total na tutoria humana, no desenvolvimento socioemocional e no pensamento crítico.
 
-### 2. Tabela Comparativa
+### 2. Tabela Comparativa: Tradicional vs. Adaptativo
 | Característica | Ensino Tradicional | Ensino Adaptativo (IA) |
 | :--- | :--- | :--- |
 | **Abordagem** | Método único e padronizado | Aprendizagem personalizada |
 | **Ritmo** | Uniforme para a turma | Ajustado ao indivíduo |
 | **Papel do Professor** | Transmissor de conteúdo | Mediador e mentor |
 | **Feedback** | Geralmente tardio | Imediato e direcionado |
+| **Inclusão** | Dificuldade em larga escala | Atendimento preciso (ex: dislexia) |
 
 ### 3. Glossário
-* **Ensino Adaptativo:** Sistema que ajusta o conteúdo conforme a interação do aluno.
-* **Trilha de Aprendizagem:** Caminho personalizado baseado nas lacunas de conhecimento.
+* **Ensino Adaptativo:** Sistema que ajusta o conteúdo conforme a interação e desempenho do aluno.
+* **Trilha de Aprendizagem:** Caminho personalizado baseado nas lacunas de conhecimento identificadas por dados.
 
 ---
 
 ## 🚀 Como Entregar
 1. No seu repositório do GitHub, clique em **"Edit"** no arquivo `README.md`.
-2. Apague tudo o que está lá.
-3. Cole o código deste bloco e clique em **"Commit changes"**.
+2. Substitua todo o conteúdo pelo código acima.
+3. Clique em **"Commit changes"** para salvar.
